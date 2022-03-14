@@ -27,4 +27,6 @@ jobs:
         conda install pytest
         python setup.py install
         python -m pip install nox
-        pytest
+        pip install backoff
+        pip install mock
+        nox
