@@ -29,4 +29,4 @@ jobs:
         python -m pip install nox
         pip install backoff
         pip install mock
-        nox
+        nox -s tests-3.8
